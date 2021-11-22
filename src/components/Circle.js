@@ -9,4 +9,8 @@ const Circle = styled.div`
   background-color: ${(props) => props.color};
 `
 
+Circle.defaultProps = {
+  color: '#ddd',
+}
+
 export default Circle

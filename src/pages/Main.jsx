@@ -26,8 +26,4 @@ const Main = ({ colorIndex, navigate }) => {
   )
 }
 
-Circle.defaultProps = {
-  color: '#ddd',
-}
-
 export default Main
